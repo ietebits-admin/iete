@@ -384,7 +384,7 @@ img.hdbImg {
 @media (max-width: 520px) {
     .homePageWrap {
         padding: 1rem;
-        padding-top: 6rem;
+        padding-top: 9rem;
     }
 
     .hpwHeading {
@@ -399,6 +399,10 @@ img.hdbImg {
     .hpwPara {
         width: 100%;
         font-size: .8rem;
+        display: none;
+    }
+
+    .dotBoxWrap{
         display: none;
     }
 
