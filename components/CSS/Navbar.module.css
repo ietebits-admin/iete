@@ -90,8 +90,7 @@
   z-index: 12;
   border-width: 1px;
   border-style: solid;
-  border-image: linear-gradient(to bottom, transparent, #eeeeee62, transparent)
-    1 100%;
+  border-image: linear-gradient(to bottom, transparent, #eeeeee62, transparent) 1 100%;
   display: none;
 }
 
@@ -109,8 +108,8 @@
   gap: 0.6rem;
 }
 
-.navbar nav .navLinkWrap .navLink ul li:focus-within > ul,
-.navbar nav .navLinkWrap .navLink ul li:hover > ul {
+.navbar nav .navLinkWrap .navLink ul li:focus-within>ul,
+.navbar nav .navLinkWrap .navLink ul li:hover>ul {
   display: initial;
 }
 
@@ -145,10 +144,22 @@
   color: #eee;
 }
 
+.navbar nav .MobileNav {
+  display: none;
+}
+
 @media (max-width: 800px) {
   .navbar nav .navExtra .navIcon {
     display: initial;
     cursor: pointer;
+  }
+
+  .navbar nav .desktopNav {
+    display: none;
+  }
+
+  .navbar nav .MobileNav {
+    display: flex;
   }
 
   .navbar nav .navLinkWrap .navLink {

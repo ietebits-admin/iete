@@ -10,6 +10,8 @@
     align-items: center;
     padding-top: 9rem;
     gap: 1.5rem;
+    max-width: 760px;
+    margin: 0 auto;
 }
 
 .hpwNew {
@@ -32,12 +34,12 @@
     font-family: afr;
 }
 
-.homeWelcomeWrap{
-    margin: 1rem 0;
+.homeWelcomeWrap {
+    margin: .5rem 0 2rem 0;
 }
 
 .hpwHeadingWelcome {
-    font-size: 2.8rem;
+    font-size: 2rem;
     color: #222;
     font-family: afr;
     position: relative;
@@ -51,10 +53,10 @@
     white-space: nowrap;
     border-right: 4px solid #fff;
     animation: animate 8s linear infinite;
-    filter: drop-shadow(0 0 4px #ddd);
+    filter: drop-shadow(0 0 4px #bdbdbdd7);
 }
 
-.homeWelcomeBtn{
+.homeWelcomeBtn {
     background: linear-gradient(transparent, #eeeeee32);
     border: 1px solid #eeeeee62;
     border-radius: 100px;
@@ -65,8 +67,6 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    /* position: relative;
-    z-index: 12; */
 }
 
 @keyframes animate {
@@ -164,14 +164,14 @@ img.hdbImg {
     border-radius: 6px;
 }
 
-.homePage img.homeBg {
+/* .homePage img.homeBg {
     position: absolute;
-    top: 90%;
-    left: 50%;
+    top: 0;
+    left: 0;
     transform: translate(-50%, -50%);
     width: 100%;
     z-index: 1;
-}
+} */
 
 .bgVideo {
     position: absolute;
