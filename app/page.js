@@ -25,18 +25,19 @@ export default function Home() {
   return (
     <div className={styles.homePage}>
       <div className={styles.homePageWrap}>
+
         <div className={styles.hpwNew}>
           <BsStars />A club with subtle difference!
         </div>
         {/* <div className={styles.hpwHeading}>Simplemente El Mejor!</div> */}
         <div className={styles.hpwHeading}>IETE STUDENTS' FORUM</div>
         <div className={styles.homeWelcomeWrap}>
-          {/* <div
+          <div
             className={styles.hpwHeadingWelcome}
-            data-text="Welcomes Batch 2K23"
+            data-text="Welcomes Batch 2K24"
           >
-            Welcomes Batch 2K23
-          </div> */}
+            Welcomes Batch 2K24
+          </div>
         </div>
         <a
           href="https://forms.gle/z9KH5hbKXnmQayXv9"
@@ -44,12 +45,12 @@ export default function Home() {
         >
           JOIN US
         </a>
-        <div className={styles.hpwPara}>
+        {/* <div className={styles.hpwPara}>
           IETE Students' Forum, BIT Sindri is a sub branch of IETE National body
           operating through various centers, spread all over India and abroad.
           Our aim is the empowerment of youth through technical education and
           skill development.
-        </div>
+        </div> */}
       </div>
 
       {/* <img className={styles.homeBg} src="/img/home/bg.webp" alt="image" /> */}
@@ -375,7 +376,7 @@ export default function Home() {
                 <div className={styles.eciDate}>Date: 28-06-2024</div>
                 <div className={styles.eciLink}></div>
               </div>
-              </a>
+            </a>
 
             <a
               // href="https://youtu.be/E0FGIxbe4pc"
@@ -389,13 +390,13 @@ export default function Home() {
                 <div className={styles.eciDate}>Date: 03-05-2024</div>
                 <div className={styles.eciLink}></div>
               </div>
-              </a>
+            </a>
 
-             <a
+            <a
               // href="http://www.ietebits.com/"
               // target="_blank"
               className={styles.eventCard}
-            > 
+            >
               <img src="/img/home/bgmi1.jpg" alt="image" />
 
               <div className={styles.eventCardInfo}>
@@ -403,7 +404,7 @@ export default function Home() {
                 <div className={styles.eciDate}>Date: 10-03-2024</div>
                 <div className={styles.eciLink}></div>
               </div>
-              </a>
+            </a>
 
             <a
               // href="https://www.youtube.com/live/newY0JpJqqw?feature=share"
@@ -417,7 +418,7 @@ export default function Home() {
                 <div className={styles.eciDate}>Date: 07-07-2023</div>
                 <div className={styles.eciLink}></div>
               </div>
-              </a>
+            </a>
 
             <a
               // href="https://www.youtube.com/live/XpAnexnjr94?feature=share"
