@@ -528,8 +528,7 @@ const Page = () => {
                 <img src="/img/members/2k23/rish.jpg" alt="image" />
                 <div className={styles.memberText}>
                   <h2>Rishita Raj</h2>
-
-                  <div className={styles.memberSubText}>
+           <div className={styles.memberSubText}>
                     <h4>Information Technology</h4>
                     <a href="https://www.linkedin.com/in/rishita-raj-836b13290?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app">
                       <FaLinkedin />
