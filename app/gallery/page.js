@@ -43,7 +43,7 @@ function Page() {
                 
             </div>
             </div>
-
+                
             <div className={styles.memories2k18}>
             <div className={styles.heading}>memories 2K19</div>
             <div className={styles.m18Row}>
@@ -64,7 +64,7 @@ function Page() {
                 }
                 
             </div>
-            
+                
             </div>
            
 

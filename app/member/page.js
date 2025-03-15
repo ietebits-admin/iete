@@ -227,21 +227,21 @@ const Page = () => {
             </Tilt>
           </div>
         </div> */}
-
+                    
         <div className={styles.memberBox}>
           <div className={styles.heading}>Office Bearers</div>
 
           <div className={styles.memberWrapper}>
             <Tilt>
               <div className={styles.memberCard}>
-                <img src="/img/members/2k21/Priyanshu.jpg" alt="image" />
+                <img src="/img/members/2k22/Adarsh.jpg" alt="image" />
                 <div className={styles.memberText}>
-                  <h2>Priyanshu Mukherjee</h2>
+                  <h2>Adarsh Kumar</h2>
                   <p>Chairperson</p>
 
                   <div className={styles.memberSubText}>
                     <h4>Electrical Engineering</h4>
-                    <a href="https://www.linkedin.com/in/priyanshu-mukherjee-259a09240/">
+                    <a href="https://www.linkedin.com/in/adarsh-kumar-abb0a3259/">
                       <FaLinkedin />
                     </a>
                   </div>
@@ -250,14 +250,14 @@ const Page = () => {
             </Tilt>
             <Tilt>
               <div className={styles.memberCard}>
-                <img src="/img/members/2k21/ADARSH_IETE.jpg" alt="image" />
+                <img src="/img/members/2k22/Shaswat.jpg" alt="image" />
                 <div className={styles.memberText}>
-                  <h2>Adarsh Trivedi</h2>
+                  <h2>Kumar Shaswat</h2>
                   <p>vice chairperson</p>
 
                   <div className={styles.memberSubText}>
-                    <h4>Information Technology</h4>
-                    <a href="https://www.linkedin.com/in/adarsh-trivedi-10ba6a22a/">
+                    <h4>Elec.&Com.Engineering</h4>
+                    <a href="https://www.linkedin.com/in/kumar-shaswat-6a1035250/">
                       <FaLinkedin />
                     </a>
                   </div>
@@ -267,17 +267,17 @@ const Page = () => {
             <Tilt>
               <div className={styles.memberCard}>
                 <img
-                  src="/img/members/2k21/Saron.jpg"
+                  src="/img/members/2k22/Simarn.jpg"
                   alt="image"
                   style={{ objectFit: 'cover' }}
                 />
                 <div className={styles.memberText}>
-                  <h2>Saron Mukti Ekka</h2>
+                  <h2>Simran</h2>
                   <p>vice chairperson</p>
 
                   <div className={styles.memberSubText}>
                     <h4>Electrical Engineering</h4>
-                    <a href="https://www.linkedin.com/in/saron-ekka/">
+                    <a href="https://www.linkedin.com/in/simran-bb9338258/">
                       <FaLinkedin />
                     </a>
                   </div>
@@ -286,82 +286,10 @@ const Page = () => {
             </Tilt>
             <Tilt>
               <div className={styles.memberCard}>
-                <img src="/img/members/2k21/Rohit_IETE.jpg" alt="image" />
+                <img src="/img/members/2k22/Shivam.jpeg" alt="image" />
                 <div className={styles.memberText}>
-                  <h2>Rohit Kr. Grihi</h2>
+                  <h2>Shivam Singh</h2>
                   <p>General secretary</p>
-
-                  <div className={styles.memberSubText}>
-                    <h4>Information Technology</h4>
-                    <a href="https://www.linkedin.com/in/rohit-kumar-grihi-009035240/">
-                      <FaLinkedin />
-                    </a>
-                  </div>
-                </div>
-              </div>
-            </Tilt>
-            <Tilt>
-              <div className={styles.memberCard}>
-                <img src="/img/members/2k21/Supriya.jpg" alt="image" />
-                <div className={styles.memberText}>
-                  <h2>Supriya Sharma</h2>
-                  <p>Joint secretary</p>
-
-                  <div className={styles.memberSubText}>
-                    <h4>Chemical Engineering</h4>
-                    <a href="https://www.linkedin.com/in/supriya-sharma-6a2057225/">
-                      <FaLinkedin />
-                    </a>
-                  </div>
-                </div>
-              </div>
-            </Tilt>
-            <Tilt>
-              <div className={styles.memberCard}>
-                <img
-                  src="/img/members/2k21/Rahul_Kr_IETE.jpg"
-                  alt="image"
-                  style={{ objectFit: 'contain' }}
-                />
-                <div className={styles.memberText}>
-                  <h2>Rahul Kumar</h2>
-                  <p>Technical head</p>
-
-                  <div className={styles.memberSubText}>
-                    <h4>Electrical Engineering</h4>
-                    <a href="">
-                      <FaLinkedin />
-                    </a>
-                  </div>
-                </div>
-              </div>
-            </Tilt>
-            <Tilt>
-              <div className={styles.memberCard}>
-                <img
-                  src="/img/members/2k21/Deepak.jpg"
-                  alt="image"
-                  style={{ objectFit: 'contain' }}
-                />
-                <div className={styles.memberText}>
-                  <h2>Deepak Kumar</h2>
-                  <p>Technical secretary</p>
-
-                  <div className={styles.memberSubText}>
-                    <h4>Information Technology</h4>
-                    <a href="https://www.linkedin.com/in/deepak-kumar-052779225/">
-                      <FaLinkedin />
-                    </a>
-                  </div>
-                </div>
-              </div>
-            </Tilt>
-            <Tilt>
-              <div className={styles.memberCard}>
-                <img src="/img/members/2k21/Avinash.jpeg" alt="image" />
-                <div className={styles.memberText}>
-                  <h2>Avinash Yadav</h2>
-                  <p>Creative and Design head</p>
 
                   <div className={styles.memberSubText}>
                     <h4>Mechanical Engineering</h4>
@@ -374,14 +302,14 @@ const Page = () => {
             </Tilt>
             <Tilt>
               <div className={styles.memberCard}>
-                <img src="/img/members/2k21/Ankita.jpg" alt="image" />
+                <img src="/img/members/2k22/Anshika.jpeg" alt="image" />
                 <div className={styles.memberText}>
-                  <h2>Ankita Ghosh</h2>
-                  <p>Head of Operations and Event in-charge</p>
+                  <h2>Anshika Mishra</h2>
+                  <p>Joint secretary</p>
 
                   <div className={styles.memberSubText}>
-                    <h4>Information Technology</h4>
-                    <a href="https://www.linkedin.com/in/ankitag39/">
+                    <h4>Metallurgical Engineering</h4>
+                    <a href="https://www.linkedin.com/in/anshika-mishra-2a7641257/">
                       <FaLinkedin />
                     </a>
                   </div>
@@ -391,17 +319,89 @@ const Page = () => {
             <Tilt>
               <div className={styles.memberCard}>
                 <img
-                  src="/img/members/2k21/Rahul_J.jpg"
+                  src="/img/members/2k22/Sashi.jpg"
                   alt="image"
                   style={{ objectFit: 'contain' }}
                 />
                 <div className={styles.memberText}>
-                  <h2>Rahul Jha</h2>
+                  <h2>Sashi Shekhar Singh</h2>
+                  <p>Technical head</p>
+
+                  <div className={styles.memberSubText}>
+                    <h4>Electrical Engineering</h4>
+                    <a href="https://www.linkedin.com/in/sashi-sekhar-singh-858a5424a/">
+                      <FaLinkedin />
+                    </a>
+                  </div>
+                </div>
+              </div>
+            </Tilt>
+            <Tilt>
+              <div className={styles.memberCard}>
+                <img
+                  src="/img/members/2k22/Anjali.jpg"
+                  alt="image"
+                  style={{ objectFit: 'contain' }}
+                />
+                <div className={styles.memberText}>
+                  <h2>Anjali Singh</h2>
+                  <p>Technical secretary</p>
+
+                  <div className={styles.memberSubText}>
+                    <h4>Prod. & Ind. Engineering</h4>
+                    <a href="https://www.linkedin.com/in/anjali-singh-58a58b257/">
+                      <FaLinkedin />
+                    </a>
+                  </div>
+                </div>
+              </div>
+            </Tilt>
+            <Tilt>
+              <div className={styles.memberCard}>
+                <img src="/img/members/2k22/Aquib.jpg" alt="image" />
+                <div className={styles.memberText}>
+                  <h2>Aquib Aftab</h2>
+                  <p>Creative and Design head</p>
+
+                  <div className={styles.memberSubText}>
+                    <h4>Computer Science Engineering</h4>
+                    <a href="https://www.linkedin.com/in/aquib-aftab-65917b252/">
+                      <FaLinkedin />
+                    </a>
+                  </div>
+                </div>
+              </div>
+            </Tilt>
+            <Tilt>
+              <div className={styles.memberCard}>
+                <img src="/img/members/2k22/Rudra.jpg" alt="image" />
+                <div className={styles.memberText}>
+                  <h2>Rudranil Ganguly</h2>
+                  <p>Event Management Head</p>
+
+                  <div className={styles.memberSubText}>
+                    <h4>Chemical Engineering</h4>
+                    <a href="https://www.linkedin.com/in/rudranil-ganguly-305411254/">
+                      <FaLinkedin />
+                    </a>
+                  </div>
+                </div>
+              </div>
+            </Tilt>
+            <Tilt>
+              <div className={styles.memberCard}>
+                <img
+                  src="/img/members/2k22/Mayank.jpeg"
+                  alt="image"
+                  style={{ objectFit: 'contain' }}
+                />
+                <div className={styles.memberText}>
+                  <h2>Kumar Mayank</h2>
                   <p>Treasurer and sponsorship head</p>
 
                   <div className={styles.memberSubText}>
-                    <h4>Elec. & Com. Engineering</h4>
-                    <a href="https://www.linkedin.com/in/rahul-jha-97200122b/">
+                    <h4>Mechanical Engineering</h4>
+                    <a href="https://www.linkedin.com/in/kumar-mayank-410660221/">
                       <FaLinkedin />
                     </a>
                   </div>
@@ -410,14 +410,14 @@ const Page = () => {
             </Tilt>
             <Tilt>
               <div className={styles.memberCard}>
-                <img src="/img/members/2k21/Rishita.jpg" alt="image" />
+                <img src="/img/members/2k22/Rahul.jpg" alt="image" />
                 <div className={styles.memberText}>
-                  <h2>Rishita Dutta</h2>
+                  <h2>Rahul kr Das</h2>
                   <p>Joint Treasurer </p>
 
                   <div className={styles.memberSubText}>
-                    <h4>Prod. & Ind. Engineering</h4>
-                    <a href="https://www.linkedin.com/in/rishita-dutta-24a91824a/">
+                    <h4>Elec. & Com. Engineering</h4>
+                    <a href="https://www.linkedin.com/in/rahul-das-169596258/">
                       <FaLinkedin />
                     </a>
                   </div>
@@ -427,17 +427,17 @@ const Page = () => {
             <Tilt>
               <div className={styles.memberCard}>
                 <img
-                  src="/img/members/2k21/Mehar.jpg"
+                  src="/img/members/2k22/Deepti.jpg"
                   alt="image"
                   style={{ objectFit: 'contain' }}
                 />
                 <div className={styles.memberText}>
-                  <h2>Mehar Talat</h2>
+                  <h2>Deepti Kumari</h2>
                   <p>Head of Alumni Affairs</p>
 
                   <div className={styles.memberSubText}>
-                    <h4>Civil Engineering</h4>
-                    <a href="https://www.linkedin.com/in/mehar-talat-a477b8232/">
+                    <h4>Chemical Engineering</h4>
+                    <a href="https://www.linkedin.com/in/deepti-kumari-482049258/">
                       <FaLinkedin />
                     </a>
                   </div>
@@ -447,17 +447,17 @@ const Page = () => {
             <Tilt>
               <div className={styles.memberCard}>
                 <img
-                  src="/img/members/2k21/Ayushi.jpeg"
+                  src="/img/members/2k22/Puspam.jpg"
                   alt="image"
                   style={{ objectFit: 'contain' }}
                 />
                 <div className={styles.memberText}>
-                  <h2>Ayushi Tewary</h2>
+                  <h2>Puspam Jha</h2>
                   <p>Media and Marketing Head</p>
 
                   <div className={styles.memberSubText}>
-                    <h4>Prod. & Ind. Engineering</h4>
-                    <a href="https://www.linkedin.com/in/ayushi-tewary-922ba5253/">
+                    <h4>Electrical Engineering</h4>
+                    <a href="https://www.linkedin.com/in/puspam-jha-44606a225/">
                       <FaLinkedin />
                     </a>
                   </div>
@@ -466,14 +466,30 @@ const Page = () => {
             </Tilt>
             <Tilt>
               <div className={styles.memberCard}>
-                <img src="/img/members/2k21/Ashish.jpg" alt="image" />
+                <img src="/img/members/2k22/1.jpg" alt="image" />
                 <div className={styles.memberText}>
-                  <h2>Ashish Sinha</h2>
+                  <h2>Faizan ahmad</h2>
                   <p>Public Realtion Officer</p>
 
                   <div className={styles.memberSubText}>
-                    <h4>Mining Engineering</h4>
-                    <a href="https://www.linkedin.com/in/ashish-sinha-82215124a/">
+                    <h4>Information Technology</h4>
+                    <a href="https://www.linkedin.com/in/faizan-ahmad-473aa123b/">
+                      <FaLinkedin />
+                    </a>
+                  </div>
+                </div>
+              </div>
+            </Tilt>
+            <Tilt>
+              <div className={styles.memberCard}>
+                <img src="/img/members/2k22/Sonali.jpg" alt="image" />
+                <div className={styles.memberText}>
+                  <h2>Sonali Gorai</h2>
+                  <p>Public Realtion Officer</p>
+
+                  <div className={styles.memberSubText}>
+                    <h4>Elec. & Com. Engineering</h4>
+                    <a href="https://www.linkedin.com/in/sonali-gorai-b0a631264/">
                       <FaLinkedin />
                     </a>
                   </div>
@@ -489,18 +505,33 @@ const Page = () => {
             <Tilt>
               <div className={styles.memberCard}>
                 <img
-                  src="/img/members/2k22/1.jpg"
+                  src="/img/members/2k23/adityaa.jpg"
                   alt="image"
                   style={{
                     objectFit: 'cover',
                   }}
                 />
                 <div className={styles.memberText}>
-                  <h2>Faizan Ahmad</h2>
+                  <h2>Aditya Raj</h2>
+
+                  <div className={styles.memberSubText}>
+                    <h4>Mechanical Engineering</h4>
+                    <a href="https://www.linkedin.com/in/aditya-raj-461a31274?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app">
+                      <FaLinkedin />
+                    </a>
+                  </div>
+                </div>
+              </div>
+            </Tilt>
+            <Tilt>
+              <div className={styles.memberCard}>
+                <img src="/img/members/2k23/rish.jpg" alt="image" />
+                <div className={styles.memberText}>
+                  <h2>Rishita Raj</h2>
 
                   <div className={styles.memberSubText}>
                     <h4>Information Technology</h4>
-                    <a href="https://www.linkedin.com/in/faizan-ahmad-473aa123b/">
+                    <a href="https://www.linkedin.com/in/rishita-raj-836b13290?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app">
                       <FaLinkedin />
                     </a>
                   </div>
@@ -509,28 +540,13 @@ const Page = () => {
             </Tilt>
             <Tilt>
               <div className={styles.memberCard}>
-                <img src="/img/members/2k22/Simarn.jpg" alt="image" />
+                <img src="/img/members/2k23/punam.jpg" alt="image" />
                 <div className={styles.memberText}>
-                  <h2>Simran</h2>
-
-                  <div className={styles.memberSubText}>
-                    <h4>Electrical Engineering</h4>
-                    <a href="https://www.linkedin.com/in/simran-bb9338258/">
-                      <FaLinkedin />
-                    </a>
-                  </div>
-                </div>
-              </div>
-            </Tilt>
-            <Tilt>
-              <div className={styles.memberCard}>
-                <img src="/img/members/2k22/Shaswat.jpg" alt="image" />
-                <div className={styles.memberText}>
-                  <h2>Kumar Shaswat </h2>
+                  <h2>Punam Kumari </h2>
 
                   <div className={styles.memberSubText}>
                     <h4>Elec. & Com. Engineering</h4>
-                    <a href="https://www.linkedin.com/in/kumar-shaswat-6a1035250/">
+                    <a href="https://www.linkedin.com/in/punam-kumari-b17b0a282">
                       <FaLinkedin />
                     </a>
                   </div>
@@ -539,58 +555,13 @@ const Page = () => {
             </Tilt>
             <Tilt>
               <div className={styles.memberCard}>
-                <img src="/img/members/2k22/Rahul.jpg" alt="image" />
+                <img src="/img/members/2k23/kashish.jpg" alt="image" />
                 <div className={styles.memberText}>
-                  <h2>Rahul Kr Das</h2>
-
-                  <div className={styles.memberSubText}>
-                    <h4>Elec. & Com. Engineering</h4>
-                    <a href="https://www.linkedin.com/in/rahul-das-169596258/">
-                      <FaLinkedin />
-                    </a>
-                  </div>
-                </div>
-              </div>
-            </Tilt>
-            <Tilt>
-              <div className={styles.memberCard}>
-                <img src="/img/members/2k22/Anshika.jpeg" alt="image" />
-                <div className={styles.memberText}>
-                  <h2>Anshika Mishra</h2>
-
-                  <div className={styles.memberSubText}>
-                    <h4>Metallurgical Engineering</h4>
-                    <a href="https://www.linkedin.com/in/anshika-mishra-2a7641257/">
-                      <FaLinkedin />
-                    </a>
-                  </div>
-                </div>
-              </div>
-            </Tilt>
-            <Tilt>
-              <div className={styles.memberCard}>
-                <img src="/img/members/2k22/Adarsh.jpg" alt="image" />
-                <div className={styles.memberText}>
-                  <h2>Adarsh Kumar</h2>
-
-                  <div className={styles.memberSubText}>
-                    <h4>Electrical Engineering</h4>
-                    <a href="https://www.linkedin.com/in/adarsh-kumar-abb0a3259/">
-                      <FaLinkedin />
-                    </a>
-                  </div>
-                </div>
-              </div>
-            </Tilt>
-            <Tilt>
-              <div className={styles.memberCard}>
-                <img src="/img/members/2k22/Rudra.jpg" alt="image" />
-                <div className={styles.memberText}>
-                  <h2>Rudranil Ganguly </h2>
+                  <h2>Kashish Kumari</h2>
 
                   <div className={styles.memberSubText}>
                     <h4>Chemical Engineering</h4>
-                    <a href="https://www.linkedin.com/in/rudranil-ganguly-305411254/">
+                    <a href="https://in.linkedin.com/in/kashish-kumari-898771327 ">
                       <FaLinkedin />
                     </a>
                   </div>
@@ -599,28 +570,13 @@ const Page = () => {
             </Tilt>
             <Tilt>
               <div className={styles.memberCard}>
-                <img src="/img/members/2k22/Puspam.jpg" alt="image" />
+                <img src="/img/members/2k23/roushan.jpg" alt="image" />
                 <div className={styles.memberText}>
-                  <h2>Puspam Jha</h2>
-
-                  <div className={styles.memberSubText}>
-                    <h4>Electrical Engineering</h4>
-                    <a href="https://www.linkedin.com/in/puspam-jha-44606a225/">
-                      <FaLinkedin />
-                    </a>
-                  </div>
-                </div>
-              </div>
-            </Tilt>
-            <Tilt>
-              <div className={styles.memberCard}>
-                <img src="/img/members/2k22/Aquib.jpg" alt="image" />
-                <div className={styles.memberText}>
-                  <h2>Aquib Aftab</h2>
+                  <h2>Roushan Raj</h2>
 
                   <div className={styles.memberSubText}>
                     <h4>Computer Science Engineering</h4>
-                    <a href="https://www.linkedin.com/in/aquib-aftab-65917b252/">
+                    <a href="https://www.linkedin.com/in/roushan-raj-cmd007?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app">
                       <FaLinkedin />
                     </a>
                   </div>
@@ -629,13 +585,13 @@ const Page = () => {
             </Tilt>
             <Tilt>
               <div className={styles.memberCard}>
-                <img src="/img/members/2k22/Sashi.jpg" alt="image" />
+                <img src="/img/members/2k23/amit.jpg" alt="image" />
                 <div className={styles.memberText}>
-                  <h2>Sashi Shekhar Singh</h2>
+                  <h2>Amit Gupta</h2>
 
                   <div className={styles.memberSubText}>
                     <h4>Electrical Engineering</h4>
-                    <a href="https://www.linkedin.com/in/sashi-sekhar-singh-858a5424a/">
+                    <a href="https://www.linkedin.com/in/amit-kumar-gupta-2b163a292?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app">
                       <FaLinkedin />
                     </a>
                   </div>
@@ -644,13 +600,13 @@ const Page = () => {
             </Tilt>
             <Tilt>
               <div className={styles.memberCard}>
-                <img src="/img/members/2k22/Deepti.jpg" alt="image" />
+                <img src="/img/members/2k23/ayush.jpg" alt="image" />
                 <div className={styles.memberText}>
-                  <h2>Deepti Kumari</h2>
+                  <h2>Ayush Bhagat </h2>
 
                   <div className={styles.memberSubText}>
-                    <h4>Chemical Engineering</h4>
-                    <a href="https://www.linkedin.com/in/deepti-kumari-482049258/">
+                    <h4>Civil Engineering</h4>
+                    <a href="https://www.linkedin.com/in/ayush-k-bhagat">
                       <FaLinkedin />
                     </a>
                   </div>
@@ -659,13 +615,13 @@ const Page = () => {
             </Tilt>
             <Tilt>
               <div className={styles.memberCard}>
-                <img src="/img/members/2k22/Mayank.jpeg" alt="image" />
+                <img src="/img/members/2k23/anukriti.jpg" alt="image" />
                 <div className={styles.memberText}>
-                  <h2> Kumar Mayank </h2>
+                  <h2>Anukriti</h2>
 
                   <div className={styles.memberSubText}>
-                    <h4>Mechanical Engineering</h4>
-                    <a href="https://www.linkedin.com/in/kumar-mayank-410660221/">
+                    <h4>Electrical Engineering</h4>
+                    <a href="https://www.linkedin.com/in/anukriti-kumari-bb5625290?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app">
                       <FaLinkedin />
                     </a>
                   </div>
@@ -674,13 +630,13 @@ const Page = () => {
             </Tilt>
             <Tilt>
               <div className={styles.memberCard}>
-                <img src="/img/members/2k22/Sonali.jpg" alt="image" />
+                <img src="/img/members/2k23/neeraj.jpg" alt="image" />
                 <div className={styles.memberText}>
-                  <h2>Sonali Gorai</h2>
+                  <h2>Neeraj Kachhap</h2>
 
                   <div className={styles.memberSubText}>
                     <h4>Elec. & Com. Engineering</h4>
-                    <a href="https://www.linkedin.com/in/sonali-gorai-b0a631264/">
+                    <a href="https://www.linkedin.com/in/neeraj-kachhap-081911303?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app">
                       <FaLinkedin />
                     </a>
                   </div>
@@ -689,28 +645,88 @@ const Page = () => {
             </Tilt>
             <Tilt>
               <div className={styles.memberCard}>
-                <img src="/img/members/2k22/Anjali.jpg" alt="image" />
+                <img src="/img/members/2k23/abhishek.jpg" alt="image" />
                 <div className={styles.memberText}>
-                  <h2>Anjali Singh</h2>
-
-                  <div className={styles.memberSubText}>
-                    <h4>Prod. & Ind. Engineering</h4>
-                    <a href="https://www.linkedin.com/in/anjali-singh-58a58b257/">
-                      <FaLinkedin />
-                    </a>
-                  </div>
-                </div>
-              </div>
-            </Tilt>
-            <Tilt>
-              <div className={styles.memberCard}>
-                <img src="/img/members/2k22/Shivam.jpeg" alt="image" />
-                <div className={styles.memberText}>
-                  <h2>Shivam Singh</h2>
+                  <h2>Abhishek Prasad</h2>
 
                   <div className={styles.memberSubText}>
                     <h4>Mechanical Engineering</h4>
-                    <a href="">
+                    <a href="https://www.linkedin.com/in/09abhishek-prasad?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=ios_app">
+                      <FaLinkedin />
+                    </a>
+                  </div>
+                </div>
+              </div>
+            </Tilt>
+            <Tilt>
+              <div className={styles.memberCard}>
+                <img src="/img/members/2k23/aakriti_paul.jpg" alt="image" />
+                <div className={styles.memberText}>
+                  <h2>Aakriti Paul</h2>
+
+                  <div className={styles.memberSubText}>
+                    <h4>Chemical Engineering</h4>
+                    <a href="https://www.linkedin.com/in/aakriti-paul-04626a316?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app">
+                      <FaLinkedin />
+                    </a>
+                  </div>
+                </div>
+              </div>
+            </Tilt>
+            <Tilt>
+              <div className={styles.memberCard}>
+                <img src="/img/members/2k23/ankit.jpg" alt="image" />
+                <div className={styles.memberText}>
+                  <h2> Ankit Yadav </h2>
+
+                  <div className={styles.memberSubText}>
+                    <h4>Information Technology</h4>
+                    <a href="https://www.linkedin.com/in/ankit-yadav-b95a35290?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app">
+                      <FaLinkedin />
+                    </a>
+                  </div>
+                </div>
+              </div>
+            </Tilt>
+            <Tilt>
+              <div className={styles.memberCard}>
+                <img src="/img/members/2k23/sakshee.jpg" alt="image" />
+                <div className={styles.memberText}>
+                  <h2>Sakshee Dubey</h2>
+
+                  <div className={styles.memberSubText}>
+                    <h4>Computer Science Engineering</h4>
+                    <a href="https://www.linkedin.com/in/sakshee-dubey-0b3459291?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app">
+                      <FaLinkedin />
+                    </a>
+                  </div>
+                </div>
+              </div>
+            </Tilt>
+            <Tilt>
+              <div className={styles.memberCard}>
+                <img src="/img/members/2k23/vishnu.jpg" alt="image" />
+                <div className={styles.memberText}>
+                  <h2>Vishnu singh</h2>
+
+                  <div className={styles.memberSubText}>
+                    <h4>Electrical Engineering</h4>
+                    <a href="https://www.linkedin.com/in/vishnu-singh-a88a93290?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app">
+                      <FaLinkedin />
+                    </a>
+                  </div>
+                </div>
+              </div>
+            </Tilt>
+            <Tilt>
+              <div className={styles.memberCard}>
+                <img src="/img/members/2k23/warsha.jpg" alt="image" />
+                <div className={styles.memberText}>
+                  <h2>Warsha Kerketta</h2>
+
+                  <div className={styles.memberSubText}>
+                    <h4>Electrical Engineering</h4>
+                    <a href="https://www.linkedin.com/in/warsha-kerketta-840192291?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app">
                       <FaLinkedin />
                     </a>
                   </div>
