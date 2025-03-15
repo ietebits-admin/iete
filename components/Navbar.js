@@ -1,6 +1,6 @@
 'use client';
 
-import React, { useState } from 'react';
+import React, { useEffect, useState } from 'react';
 import Link from 'next/link';
 import Image from 'next/image';
 import { HiOutlineMenuAlt3 } from 'react-icons/hi';
@@ -8,11 +8,17 @@ import { BsCalendarEvent, BsInfoCircle } from 'react-icons/bs';
 import { RiGalleryLine } from 'react-icons/ri';
 import { FaUsersViewfinder } from 'react-icons/fa6';
 import { LiaBlogSolid, LiaUserGraduateSolid } from 'react-icons/lia';
+import { usePathname } from 'next/navigation'
 
 import styles from './CSS/Navbar.module.css';
 
 const Navbar = () => {
-  const [toggleMenu, setToggleMenu] = useState(true);
+  const [toggleMenu, setToggleMenu] = useState(false);
+  const pathname = usePathname();
+
+  useEffect(() => {
+    setToggleMenu(false);
+  }, [pathname]);
 
   const toggleNav = () => {
     setToggleMenu(!toggleMenu);
@@ -76,8 +82,26 @@ const Navbar = () => {
             /> 
             <span>IETE</span>
           </Link>
-          <div className={styles.navLinkWrap}>
-            {toggleMenu && (
+
+          {/* Desktop Nav */}
+          <div className={`${styles.navLinkWrap} ${styles.desktopNav}`}>
+            <div className={styles.navLink}>
+              <ul>
+                {navLinks.map((el) => (
+                  <li key={el.id}>
+                    <Link href={el.route}>
+                      <div className={styles.navNewIcon}>{el.icon}</div>
+                      {el.name}
+                    </Link>
+                  </li>
+                ))}
+              </ul>
+            </div>
+          </div>
+
+          {/* Mobile Nav */}
+          {toggleMenu && (
+            <div className={`${styles.navLinkWrap} ${styles.mobileNav}`}>
               <div className={styles.navLink}>
                 <ul>
                   {navLinks.map((el) => (
@@ -90,8 +114,8 @@ const Navbar = () => {
                   ))}
                 </ul>
               </div>
-            )}
-          </div>
+            </div>
+          )}
 
           <div className={styles.navExtra}>
             <Link href="/techUdbhav">
