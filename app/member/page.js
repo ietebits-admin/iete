@@ -525,7 +525,7 @@ const Page = () => {
             </Tilt>
             <Tilt>
               <div className={styles.memberCard}>
-                <img src="/img/members/2k23/rish.jpg" alt="image" />
+                <img src="/img/members/2k23/rishita.jpg" alt="image" />
                 <div className={styles.memberText}>
                   <h2>Rishita Raj</h2>
            <div className={styles.memberSubText}>
