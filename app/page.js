@@ -217,7 +217,7 @@ export default function Home() {
           </div>
           <div className={styles.heading}>Brief History</div>
           <div className={styles.heroBottomBrief}>
-            <img src="/img/home/member.jpeg" alt="image" />
+            <img src="/img/home/team_iete.jpg" alt="image" />
             <div className={styles.heroBottomBriefText}>
               IETE Students Chapter, BIT Sindri was established in the year
               2007, since then it is one of the fastest-growing clubs of BIT

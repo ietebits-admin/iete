@@ -25,7 +25,7 @@ const Navbar = () => {
   };
 
   const navLinks = [
-    {
+    {                               
       id: 1,
       route: '/about',
       name: 'About',
@@ -79,7 +79,7 @@ const Navbar = () => {
               alt="navLogo"
               width={40}
               height={40}
-            />
+            /> 
             <span>IETE</span>
           </Link>
 
