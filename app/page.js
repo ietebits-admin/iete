@@ -34,17 +34,17 @@ export default function Home() {
         <div className={styles.homeWelcomeWrap}>
           <div
             className={styles.hpwHeadingWelcome}
-            data-text="Welcomes Batch 2K24"
+            data-text="Welcomes Batch 2K25"
           >
-            Welcomes Batch 2K24
+            Welcomes Batch 2K25
           </div>
         </div>
-        <a
+        {/* <a
           href="https://forms.gle/z9KH5hbKXnmQayXv9"
           className={styles.homeWelcomeBtn}
         >
           JOIN US
-        </a>
+        </a> */}
         {/* <div className={styles.hpwPara}>
           IETE Students' Forum, BIT Sindri is a sub branch of IETE National body
           operating through various centers, spread all over India and abroad.
